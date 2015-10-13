@@ -5,7 +5,7 @@ machine:
 dependencies:
   override:
     - sudo pip install --upgrade docker
-    - sudo pip install --upgrade docker docker-compose
+    - sudo pip install --upgrade docker-compose
 
 test:
   override:
